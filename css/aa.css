@@ -1,0 +1,33 @@
+.box {
+  border: 1px solid #ccc;
+  left: 0;
+  right: 0;
+}
+
+.box {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article a {
+  color: blue;
+}
+
+article a:hover {
+  color: red;
+}

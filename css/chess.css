@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.box {
+  width: 600px;
+  height: 600px;
+  background: #DEDE7D;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.chess {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
+  position: relative;
+  z-index: 999;
+}
+
+.white {
+  background: #9F4563;
+}
+
+.black {
+  background: #1c2327;
+}
+
+.heng {
+  width: 560px;
+  height: 1px;
+  position: absolute;
+  left: 20px;
+  background: #00C1DE;
+  transform: matrix3d(-300%, 0, 0);
+  animation: level 1s 1 linear forwards;
+}
+
+.shu {
+  height: 560px;
+  width: 1px;
+  position: absolute;
+  left: 20px;
+  background: #00C1DE;
+  transform: translate3d(0, -300%, 0);
+  animation: down 1s 1 ease-in forwards;
+}
+
+i:nth-of-type(1) {
+  top: 20px;
+  animation-delay: 100ms;
+}
+
+span:nth-of-type(1) {
+  top: 20px;
+  left: 20px;
+  animation-delay: 100ms;
+}
+
+i:nth-of-type(2) {
+  top: 60px;
+  animation-delay: 200ms;
+}
+
+span:nth-of-type(2) {
+  top: 20px;
+  left: 60px;
+  animation-delay: 200ms;
+}
+
+i:nth-of-type(3) {
+  top: 100px;
+  animation-delay: 300ms;
+}
+
+span:nth-of-type(3) {
+  top: 20px;
+  left: 100px;
+  animation-delay: 300ms;
+}
+
+i:nth-of-type(4) {
+  top: 140px;
+  animation-delay: 400ms;
+}
+
+span:nth-of-type(4) {
+  top: 20px;
+  left: 140px;
+  animation-delay: 400ms;
+}
+
+i:nth-of-type(5) {
+  top: 180px;
+  animation-delay: 500ms;
+}
+
+span:nth-of-type(5) {
+  top: 20px;
+  left: 180px;
+  animation-delay: 500ms;
+}
+
+i:nth-of-type(6) {
+  top: 220px;
+  animation-delay: 600ms;
+}
+
+span:nth-of-type(6) {
+  top: 20px;
+  left: 220px;
+  animation-delay: 600ms;
+}
+
+i:nth-of-type(7) {
+  top: 260px;
+  animation-delay: 700ms;
+}
+
+span:nth-of-type(7) {
+  top: 20px;
+  left: 260px;
+  animation-delay: 700ms;
+}
+
+i:nth-of-type(8) {
+  top: 300px;
+  animation-delay: 800ms;
+}
+
+span:nth-of-type(8) {
+  top: 20px;
+  left: 300px;
+  animation-delay: 800ms;
+}
+
+i:nth-of-type(9) {
+  top: 340px;
+  animation-delay: 900ms;
+}
+
+span:nth-of-type(9) {
+  top: 20px;
+  left: 340px;
+  animation-delay: 900ms;
+}
+
+i:nth-of-type(10) {
+  top: 380px;
+  animation-delay: 1000ms;
+}
+
+span:nth-of-type(10) {
+  top: 20px;
+  left: 380px;
+  animation-delay: 1000ms;
+}
+
+i:nth-of-type(11) {
+  top: 420px;
+  animation-delay: 1100ms;
+}
+
+span:nth-of-type(11) {
+  top: 20px;
+  left: 420px;
+  animation-delay: 1100ms;
+}
+
+i:nth-of-type(12) {
+  top: 460px;
+  animation-delay: 1200ms;
+}
+
+span:nth-of-type(12) {
+  top: 20px;
+  left: 460px;
+  animation-delay: 1200ms;
+}
+
+i:nth-of-type(13) {
+  top: 500px;
+  animation-delay: 1300ms;
+}
+
+span:nth-of-type(13) {
+  top: 20px;
+  left: 500px;
+  animation-delay: 1300ms;
+}
+
+i:nth-of-type(14) {
+  top: 540px;
+  animation-delay: 1400ms;
+}
+
+span:nth-of-type(14) {
+  top: 20px;
+  left: 540px;
+  animation-delay: 1400ms;
+}
+
+i:nth-of-type(15) {
+  top: 580px;
+  animation-delay: 1500ms;
+}
+
+span:nth-of-type(15) {
+  top: 20px;
+  left: 580px;
+  animation-delay: 1500ms;
+}
+
+@keyframes down {
+  from {
+    transform: translate3d(0, -300%, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes level {
+  from {
+    transform: translate3d(-300%, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
